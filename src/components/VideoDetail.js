@@ -1,4 +1,5 @@
 import React from "react";
+import './VideoDetail.css'
 
 const VideoDetail = ({ video }) => {
     if (!video) {
@@ -9,10 +10,10 @@ const VideoDetail = ({ video }) => {
 
     return (
         <div>
-            <div className="ui embed">
+            <div className="video">
                 <iframe title='video player' src={videoSrc} />
             </div>
-            <div className="ui segment">
+            <div className="description">
                 <h4 className="ui header">{video.snippet.title}</h4>
                 <p>{video.snippet.description}</p>
             </div>

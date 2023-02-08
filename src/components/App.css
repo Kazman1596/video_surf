@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    background: #55768F;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #FFEED7;
+    overflow-x: hidden;
+  }
+
+  .container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }
+
+.header-menu {
+  background-color: #335875;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 15px;
+}
+
+.header-menu h1 {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.selected-video {
+  grid-column: 1/ span 8;
+  max-width: 90%;
+}
+
+.video-list {
+  grid-column: 9/ span 4;
+  max-width: 90%;
+}

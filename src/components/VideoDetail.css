@@ -1,0 +1,28 @@
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.video iframe {
+    width: 700px;
+    height: 400px;
+    margin-bottom: 25px;
+}
+
+.description {
+    margin: 10px;
+}
+
+.description h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #335875;
+    padding-bottom: 5px;
+}
+
+.description p {
+    text-align: center;
+    margin: 5px;
+}
